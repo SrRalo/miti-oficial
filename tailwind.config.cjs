@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const defaultTheme = require("tailwindcss/defaultTheme");
 
-export default {
+module.exports = {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   darkMode: "class",
   theme: {
@@ -22,20 +22,19 @@ export default {
           DEFAULT: "#f9f9f9",
         },
         "base-dark": {
-          50: "#808080",
-          100: "#757575",
-          200: "#6b6b6b",
-          300: "#616161",
-          400: "#575757",
+          50: "#191919",
+          100: "#242424",
+          200: "#2e2e2e",
+          300: "#383838",
+          400: "#424242",
           500: "#4d4d4d",
-          600: "#424242",
-          700: "#383838",
-          800: "#2e2e2e",
-          900: "#242424",
-          950: "#1a1a1a",
-          DEFAULT: "#1a1a1a",
+          600: "#575757",
+          700: "#616161",
+          800: "#6b6b6b",
+          900: "#757575",
+          950: "#808080",
+          DEFAULT: "#191919",
         },
-
         accent: {
           50: "#ffffff",
           100: "#c7c7c7",
@@ -53,12 +52,12 @@ export default {
           dark: "#000000",
         },
         primary: {
-          50: "#f1fcf1",
-          100: "#e0f9df",
-          200: "#c2f1c1",
-          300: "#92e491",
-          400: "#5acf59",
-          500: "#34b433",
+          50: "#83FF78",
+          100: "#6BF55F",
+          200: "#54EB47",
+          300: "#3DE12F",
+          400: "#34b433",
+          500: "#2ca02c",
           DEFAULT: "#228B22",
           600: "#228b22",
           700: "#207521",
