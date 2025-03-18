@@ -1,5 +1,4 @@
-# Astro - Template - Green Energy Company
+# Astro 
 
-### 🚀 Check Out the Live Site
+### 🚀 MiTi Oficial
 
-https://vbartalis.github.io/energy-template/
