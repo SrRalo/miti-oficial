@@ -7,5 +7,5 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [tailwind(), react()],
   site: "https://vbartalis.github.io",
-  base: "/miti-oficial"
+  base: "/miti-oficial/"
 });
